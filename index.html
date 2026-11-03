@@ -15,10 +15,18 @@
          <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-chrome-192x192.png">
          <link rel="icon" type="image/png" sizes="512x512" href="favicons/android-chrome-512x512.png">
          <link rel="icon" href="favicon.ico">
-       <meta name="theme-color" content="#ffffff">
-       <link rel="canonical" href="https://alex49283.github.io/">            
+         <meta name="theme-color" content="#ffffff">
+       <link rel="canonical" href="https://alex49283.github.io/">  
+       <link rel="preload" href="pexels-pavel-danilyuk-8294556.webp" as="image">          
     </head>
     <body>
+      <picture>
+        <source srcset="Imagen robot escritotio.webp"
+        media="(min-width:650px) and (max-width:1000px)">
+        <source srcset="Imagen robot escritotio.webp"
+        media="(min-width:10px)" and (max-width:649px)>
+        <img src="Imagen robot escritotio.webp" alt="Imagen escritotio"> 
+      </picture>
       <header>
         <h1><u>La Inteligencia Artificial: Historia, Evolución y Futuro</u></h1>
 </header>
@@ -30,8 +38,11 @@
          cómo ha evolucionado y qué podemos esperar de ella en el futuro.</p>
 
          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, voluptate. Reiciendis ipsum maxime quidem? Necessitatibus et unde quae, quibusdam accusantium quidem, rerum ipsa consectetur officiis aperiam omnis deserunt incidunt! Optio!</p>
-       <img src="pexels-pavel-danilyuk-8294556.webp"alt="Robot reflejado">
+       <img src="pexels-pavel-danilyuk-8294556.webp"alt="Robot reflejado" fetchpriority="high" height="650" width="450">
+       
+       <img src="Imagen robot escritotio.webp" alt="Imagen escritotio">
       </section>
+  <picture>
    </main>
     
 </body>
