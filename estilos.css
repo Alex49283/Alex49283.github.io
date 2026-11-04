@@ -1,28 +1,75 @@
+
 body{
-    background-color: beige;
+    margin: 0;
+    background-color: #344966;
 }
-h1{
-    color: white;
-    font-size: 50px;
-    border:4px,black,solid;
-    background-color: darkblue;
-    padding-bottom: 100px;
-    text-align: center;
-}
-img{
-    margin-left: 1200px;
+header{
+    
 }
 
+h1{
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    background-color:#0d1821;
+    text-align: center;
+    font-size:50px;
+    padding:0;
+    margin:0;
+    margin-bottom:0px;
+    padding:60px;
+   
+}
+
+.Primera{
+    background-color: #0d1821;
+    border: solid 5px black;
+    text-align: center;
+    padding:20px;
+    margin-top:50px;
+    margin-left:150px;
+    margin-right:1000px;
+    color: white;
+}
+.Enlaces{
+    background-color: #0d1821;
+    border: solid 5px black;
+    text-align: center;
+    padding:20px;
+    margin-top:50px;
+    margin-left:150px;
+    margin-right:1000px;
+    color: white;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
 p{ 
     font-size:20px;
 }
-h2#Historia{
-    color: purple;
-
+nav{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color:#03256c;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 0;
+    margin-right:100px;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color:white ;
 }
 :root{
     font-size:20px;
-    --color1:#1702D6;
+    --color1:#090152;
     --color2:blue;
     --color3:green;
 
