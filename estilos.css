@@ -74,3 +74,24 @@ nav a:hover{
     --color3:green;
 }
 
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.redes-sociales a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales img {
+    width: 30px !important;
+    height: 30px !important;
+    max-width: 30px;
+    object-fit: contain;
+    display: block;
+}
