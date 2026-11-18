@@ -95,3 +95,27 @@ nav a:hover{
     object-fit: contain;
     display: block;
 }
+#migas, a{
+    color: white;
+
+}
+.indice-modelos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 20px auto;
+}
+
+.indice-modelos a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.indice-modelos a:hover {
+    color: #0148e0;
+    text-decoration: underline;
+}
